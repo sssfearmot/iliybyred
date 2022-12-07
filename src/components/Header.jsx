@@ -10,7 +10,7 @@ const Header = () => {
         <div className="util-area">
           <a href="" className="btn-search">
             <span className="blind">검색</span>
-            <Search />;
+            <Search />
           </a>
           <a href="" className="btn-menu">
             <div className="bar-wrap">

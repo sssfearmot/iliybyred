@@ -1,10 +1,13 @@
 import React from "react";
 import "./main.scss";
+import _Home from "./function/Home";
+
 import { ReactComponent as Star } from '../assets/ico-star.svg'
 
 
 
 const Main = () => {
+
     return (
         <div classNameName="container">
             <div className="bg-wrapper">
