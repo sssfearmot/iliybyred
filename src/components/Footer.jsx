@@ -4,8 +4,8 @@ import { ReactComponent as There } from "../assets/ico-there.svg";
 
 const Footer = () => {
     return (
-        <div classNameName="footer">
-            <div classNameName="inner">
+        <div className="footer">
+            <div className="inner">
                 <div className="footer-top">
                     <nav className="menu-area">
                         <ul className="menu-list">

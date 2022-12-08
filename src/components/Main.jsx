@@ -9,9 +9,9 @@ import { ReactComponent as Star } from '../assets/ico-star.svg'
 const Main = () => {
 
     return (
-        <div classNameName="container">
+        <div className="container">
             <div className="bg-wrapper">
-                <div className="bg"></div>
+                <div className="bg">/</div>
                 <section className="sc-visual">
                     <h2 className="blind">메인 비주얼 영역</h2>
                     <div className="visual-typo">

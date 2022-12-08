@@ -1,16 +1,20 @@
-import $ from 'jquery'
+import $ from 'jquery';
+
 import gsap from 'gsap'
 
-import { ScrollTrigger, Tween } from "react-gsap"
+import { ScrollTrigger, TweenMax } from "react-gsap"
 
 // import 'swiper/swiper-bundle.css';
-import { Swiper, SwiperSlide } from "swiper";
-import { Navigation, Pagination, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+// import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
-// import "swiper/css/autoplay";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/autoplay";
+
+// SwiperCore.use([Navigation, Pagination, Autoplay]);
+
 
 function Home() {
     // $(function (_Home) {
@@ -20,7 +24,7 @@ function Home() {
     const w = 124;
     const h = 124;
 
-    $(window).mousemove(function (e) {
+    $("div").mousemove(function (e) {
         const xVal = e.clientX;
         const yVal = e.clientY;
 
@@ -74,7 +78,7 @@ function Home() {
         });
     });
 
-    var swiper = new Swiper('.visual-left .swiper', {
+    const VisualSwiper = new Swiper('.visual-left .swiper', {
         effect: 'fade',
         spaceBetween: 0,
         centeredSlides: true,
@@ -135,7 +139,7 @@ function Home() {
         .set('.rolling-text .tone', { yPercent: -100 });
     rollingText.repeat(-1);
 
-    var swiper = new Swiper('.best-slide', {
+    const BestSwiper = new Swiper('.best-slide', {
         slidesPerView: 4,
     });
 
@@ -202,6 +206,9 @@ function Home() {
             });
         });
     });
+
+    VisualSwiper.controller.control = VisualSwiper;
+    BestSwiper.controller.control = BestSwiper;
 }
 
 export default Home
