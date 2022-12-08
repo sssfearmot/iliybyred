@@ -2,6 +2,8 @@ import React from "react";
 import "./main.scss";
 import _Home from "./function/Home";
 
+import "./function/Home";
+
 import { ReactComponent as Star } from '../assets/ico-star.svg'
 
 
@@ -10,6 +12,7 @@ const Main = () => {
 
     return (
         <div className="container">
+            <div className="cursor"></div>
             <div className="bg-wrapper">
                 <div className="bg">/</div>
                 <section className="sc-visual">

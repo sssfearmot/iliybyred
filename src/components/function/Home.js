@@ -1,30 +1,31 @@
 import $ from 'jquery';
 
-import gsap from 'gsap'
+// swiper
+import Swiper from 'swiper';
+import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 
-import { ScrollTrigger, TweenMax } from "react-gsap"
+// gsap
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
-// import 'swiper/swiper-bundle.css';
-import { Swiper, SwiperSlide } from "swiper/react";
-// import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
-
-import "swiper/css";
+import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
-// SwiperCore.use([Navigation, Pagination, Autoplay]);
+SwiperCore.use([Navigation, Pagination, Autoplay])
 
 
-function Home() {
-    // $(function (_Home) {
-    // export default function _Home() {
+gsap.registerPlugin(ScrollTrigger);
+
+// ------------------------------------------------------------------------
+$(function () {
     $(window).trigger('scroll');
 
     const w = 124;
     const h = 124;
 
-    $("div").mousemove(function (e) {
+    $(window).mousemove(function (e) {
         const xVal = e.clientX;
         const yVal = e.clientY;
 
@@ -33,6 +34,7 @@ function Home() {
             y: yVal,
         });
     });
+
 
     $('a').mousemove(function (e) {
         gsap.to('.cursor', {
@@ -206,9 +208,4 @@ function Home() {
             });
         });
     });
-
-    VisualSwiper.controller.control = VisualSwiper;
-    BestSwiper.controller.control = BestSwiper;
-}
-
-export default Home
+});
