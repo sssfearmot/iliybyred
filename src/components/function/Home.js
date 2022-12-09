@@ -2,18 +2,20 @@ import $ from 'jquery';
 
 // swiper
 import Swiper from 'swiper';
-import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
+import SwiperCore, { EffectFade, Navigation, Pagination, Autoplay } from 'swiper';
 
 // gsap
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
-import 'swiper/css';
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/autoplay";
+import 'swiper/css/bundle'; // 모든 모듈 스타일
+// import 'swiper/css';     // 핵심 swiper 스타일만
+// import 'swiper/css/effect-fade'
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
+// import "swiper/css/autoplay";
 
-SwiperCore.use([Navigation, Pagination, Autoplay])
+SwiperCore.use([ EffectFade, Navigation, Pagination, Autoplay])
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -145,6 +147,17 @@ $(function () {
         slidesPerView: 4,
     });
 
+
+    // ScrollTrigger.create({
+    //     autoAlpha: 1,
+    //     ease: 'power1.in',
+    //     trigger: '.bg',
+    //     start: 'bottom center',
+    //     scrub: 1,
+    //     endTrigger: '.sc-visual',
+    //     end: 'bottom 100px',
+    // })
+
     gsap.to('.bg', {
         autoAlpha: 1,
         ease: 'power1.in',
@@ -156,7 +169,7 @@ $(function () {
         },
     });
 
-    gsap.to('.visual-type', {
+    gsap.to('.visual-typo', {
         autoAlpha: 0,
         ease: 'power1.in',
         scrollTrigger: {

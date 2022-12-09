@@ -14,7 +14,7 @@ const Main = () => {
         <div className="container">
             <div className="cursor"></div>
             <div className="bg-wrapper">
-                <div className="bg">/</div>
+                <div className="bg"></div>
                 <section className="sc-visual">
                     <h2 className="blind">메인 비주얼 영역</h2>
                     <div className="visual-typo">
@@ -414,7 +414,7 @@ const Main = () => {
                         src="https://www.youtube.com/embed/OoNX1BWcnAw?controls=0&loop=1&autoplay=1&mute=1&playlist=OoNX1BWcnAw"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
+                        allowFullScreen>
                     </iframe>
                 </div>
             </section>
