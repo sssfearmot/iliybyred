@@ -1,8 +1,9 @@
 import React from "react";
 import "./main.scss";
-import _Home from "./function/Home";
 
 import "./function/Home";
+import "./function/ballMain";
+import "./function/protoclass";
 
 import { ReactComponent as Star } from '../assets/ico-star.svg'
 
