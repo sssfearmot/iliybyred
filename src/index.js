@@ -9,3 +9,10 @@ root.render(
     <App />
   </React.StrictMode>
 );
+// export default function ReactDOMs() {
+//   return (
+//     <CookiesProvider>
+//       <App />
+//     </CookiesProvider>
+//   );
+// }

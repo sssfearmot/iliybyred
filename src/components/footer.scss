@@ -96,8 +96,9 @@
             }
         }
 
-        img {
+        .img {
             margin-top: -17px;
+            -webkit-animation: figAni 1s ease-in-out infinite;
             animation: figAni 1s ease-in-out infinite;
         }
 

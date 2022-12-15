@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import { b2AABB, b2World, b2Vec2, b2BodyDef, b2CircleDef, b2BoxDef, b2MouseJointDef, i } from "react-dom-box2d";
+import { b2AABB, b2World, b2Vec2, b2BodyDef, b2CircleDef, b2BoxDef, b2MouseJointDef, i } from "@flyover/box2d";
 
 gsap.registerPlugin(ScrollTrigger);
 

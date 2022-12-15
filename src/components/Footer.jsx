@@ -23,7 +23,9 @@ const Footer = () => {
                         </div>
                         <div className="alarm-box">
                             <span className="txt">push alarm !</span>
-                            <There />
+                            <div className="img">
+                                <There />
+                            </div>
                             <div className="switch">
                                 <span className="circle"></span>
                                 <span className="txt">OFF</span>
