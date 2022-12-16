@@ -1,6 +1,7 @@
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { b2AABB, b2World, b2Vec2, b2BodyDef, b2CircleDef, b2BoxDef, b2MouseJointDef, i } from "@flyover/box2d";
+// import { b2AABB, b2World, b2Vec2, b2BodyDef, b2CircleDef, b2BoxDef, b2MouseJointDef, i } from "react-dom-box2d";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -78,11 +79,16 @@ function init() {
 
     // init box2d
 
-    worldAABB = new b2AABB();
+    // worldAABB = new b2AABB();
+    var worldAABB = new b2AABB();
     worldAABB.minVertex.Set(-200, -200);
     worldAABB.maxVertex.Set(window.innerWidth + 200, window.innerHeight + 200);
+    // 
+    var gravity = new b2Vec2(0, 0);
+    var doSleep = true;
+    world = new b2World(worldAABB, gravity, doSleep);
 
-    world = new b2World(worldAABB, new b2Vec2(0, 0), true);
+    // world = new b2World(worldAABB, new b2Vec2(0, 0), true);
 
     setWalls();
     reset();
