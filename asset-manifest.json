@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/iliybyred/static/css/main.8ae3045f.css",
+    "main.js": "/iliybyred/static/js/main.88013f90.js",
+    "static/media/visual-slide3.jpeg": "/iliybyred/static/media/visual-slide3.00d15bf2b8921f994c9c.jpeg",
+    "static/media/visual-slide2.jpeg": "/iliybyred/static/media/visual-slide2.6f7bdd49316e5e85cbf5.jpeg",
+    "static/media/visual-slide1.jpeg": "/iliybyred/static/media/visual-slide1.5b339ba0a2e0ce7de1d6.jpeg",
+    "static/media/visual-slide4.jpeg": "/iliybyred/static/media/visual-slide4.b5630e9910fa6cce017d.jpeg",
+    "static/media/product-hover3.jpeg": "/iliybyred/static/media/product-hover3.1c46f2a81f97d85166a3.jpeg",
+    "static/media/product-hover4.jpeg": "/iliybyred/static/media/product-hover4.9eca4e2768f4cfecb43c.jpeg",
+    "static/media/product-hover2.jpeg": "/iliybyred/static/media/product-hover2.6b4b09aef0879f039c10.jpeg",
+    "static/media/product1.jpeg": "/iliybyred/static/media/product1.31c1a1e917af4cec3b8a.jpeg",
+    "static/media/product-hover1.jpeg": "/iliybyred/static/media/product-hover1.28c5fe2bec3e6a261a6b.jpeg",
+    "static/media/event-thumb2.jpeg": "/iliybyred/static/media/event-thumb2.c3e07e587c606b367c0f.jpeg",
+    "static/media/product3.jpeg": "/iliybyred/static/media/product3.e6c16339ecb3a16dd8b1.jpeg",
+    "static/media/bg.jpeg": "/iliybyred/static/media/bg.58560b01335aa37f9256.jpeg",
+    "static/media/event-thumb3.jpeg": "/iliybyred/static/media/event-thumb3.5d4033f49270ce86d6a8.jpeg",
+    "static/media/event-thumb1.jpeg": "/iliybyred/static/media/event-thumb1.930d7ec41628631988fc.jpeg",
+    "static/media/product2.jpeg": "/iliybyred/static/media/product2.37b51a4b3cd180079b67.jpeg",
+    "static/media/event-thumb5.jpeg": "/iliybyred/static/media/event-thumb5.09bad186b2f4963790c9.jpeg",
+    "static/media/product4.jpeg": "/iliybyred/static/media/product4.ad844a8478e185e56d60.jpeg",
+    "static/media/event-thumb4.jpeg": "/iliybyred/static/media/event-thumb4.d2d3ed89c4849cfef3ba.jpeg",
+    "static/media/ico-pink.png": "/iliybyred/static/media/ico-pink.9fa803e6fd10b7cbd418.png",
+    "static/media/ico-there.svg": "/iliybyred/static/media/ico-there.b72b2576f8c0043727d63613d1710582.svg",
+    "static/media/ico-search.svg": "/iliybyred/static/media/ico-search.595fbfd5cdbb90bd997159e1d9ac029c.svg",
+    "static/media/ico-star.svg": "/iliybyred/static/media/ico-star.37683094c9f2ae3d0f52b0a4a5df113f.svg",
+    "index.html": "/iliybyred/index.html",
+    "main.8ae3045f.css.map": "/iliybyred/static/css/main.8ae3045f.css.map",
+    "main.88013f90.js.map": "/iliybyred/static/js/main.88013f90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ae3045f.css",
+    "static/js/main.88013f90.js"
+  ]
+}
